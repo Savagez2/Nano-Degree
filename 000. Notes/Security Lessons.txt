@@ -1,0 +1,6 @@
+Source: Cult of The Dead Cow
+https://cranklin.wordpress.com/2016/12/26/how-to-create-a-virus-using-the-assembly-language/
+
+I recommend the following tools:
+Visual MASM: http://www.visualmasm.com/
+Microsoft Visual Studio Code: https://code.visualstudio.com/
