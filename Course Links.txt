@@ -1,0 +1,2 @@
+Intro to computer Science: https://www.udacity.com/course/intro-to-computer-science--cs101
+Python: https://www.udacity.com/course/programming-foundations-with-python--ud036

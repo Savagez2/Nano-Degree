@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zach's Portfolio Page</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!--This is the header of the page including the logo, name and description-->
+      <header class="row">
+        <figure class="col-md-6">
+            <img class="img-responsive title-logo" src="http://www.clker.com/cliparts/l/I/V/X/V/M/earth.svg" alt="Earth">
+        </figure>
+        <section class="col-md-6 text-right text-uppercase">
+          <h1 class="text-thin title-super">Zach Savage</h1>
+          <h3>Front-end Developer Work</h3>
+        </section>
+      </header>
+      <hr>
+      <!--This is the large image scrolling the entire width of the page-->
+      <section class="row">
+        <figure class="col-md-12">
+          <img class="img-responsive" src="images/guadalupe-1140-750.jpg" alt="Guadalupe peak">
+        </figure>
+      </section>
+      <section class="row">
+        <div class="col-md-12 text-muted">
+          <h2>Featured Work</h2>
+        </div>
+      </section>
+      <!--This section of HTML contains the specific projects-->
+      <section class="row">
+        <article class="col-md-4">
+          <img class="img-responsive" src="images/hallstatt-350-250.jpg" alt="Hallstatt Austria" data-toggle="modal" data-target="#project1">
+          <h3 class="text-uppercase text-article">Hallstatt</h3>
+          <p><a href="http://github.com">Link to project 1</a></p>
+        </article>
+        <article class="col-md-4">
+          <img class="img-responsive" src="images/big-bend-350-250.jpg" alt="Big Bend National Park at the Rio Grande" data-toggle="modal" data-target="#project2">
+          <h3 class="text-uppercase text-article">Big Bend</h3>
+          <p><a href="http://github.com">Link to project 2</a></p>
+        </article>
+        <article class="col-md-4">
+          <img class="img-responsive" src="images/sand-dune-350-250.jpg" alt="Top of sand dune in sand dunes national park" data-toggle="modal" data-target="#project3">
+          <h3 class="text-uppercase text-article">Sand Dunes</h3>
+          <p><a href="http://github.com">Link to project 3</a></p>
+        </article>
+      </section>
+    </div>
+    <!-- Modal for projects-->
+    <!-- Modal for project 1-->
+   <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+       <div class="modal-dialog">
+           <div class="modal-content">
+               <div class="modal-header">
+                   <h4 class="modal-title" id="myModalLabel">Hallstatt Austria</h4>
+               </div>
+               <div class="modal-body">
+                   <img class="img-responsive" src="images/hallstatt-350-250.jpg" alt="Hallstatt Austria">
+                   My wife and I took this photo coming into the port of Hallstatt in Austria
+               </div>
+               <div class="modal-footer">
+                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               </div>
+           </div>
+       </div>
+   </div>
+   <!-- Modal for project 2-->
+   <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+       <div class="modal-dialog">
+           <div class="modal-content">
+               <div class="modal-header">
+                   <h4 class="modal-title" id="myModalLabe2">Big Bend National Park</h4>
+               </div>
+               <div class="modal-body">
+                   <img class="img-responsive" src="images/big-bend-350-250.jpg" alt="Big Bend National Park at the Rio Grande">
+                   I took this photo at sunset in Big Bend National Park. You can see the Mexican/US border where the river flows
+               </div>
+               <div class="modal-footer">
+                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               </div>
+           </div>
+       </div>
+   </div>
+   <!-- Modal for project 3-->
+   <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+       <div class="modal-dialog">
+           <div class="modal-content">
+               <div class="modal-header">
+                   <h4 class="modal-title" id="myModalLabel3">Sand Dunes National Park</h4>
+               </div>
+               <div class="modal-body">
+                   <img class="img-responsive" src="images/sand-dune-350-250.jpg" alt="Top of sand dune in sand dunes national park">
+                   My wife and I took this photo when the sun was setting in Sand Dunes National Park in Colorado.
+               </div>
+               <div class="modal-footer">
+                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               </div>
+           </div>
+       </div>
+   </div>
+  </body>
+</html>

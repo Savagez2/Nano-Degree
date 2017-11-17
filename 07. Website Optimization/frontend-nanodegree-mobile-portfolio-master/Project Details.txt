@@ -1,0 +1,7 @@
+Review our course on Website Performance Optimization using Google PageSpeed.
+Download the required project assets.
+Use Chrome Developer Tools to review the current state of various pages within the application and identify areas for improvement.
+Review the code powering the website and identify areas where you believe modifications are warranted.
+Iteratively make changes and test those changes using the tools available to you to determine if they are a performance gain or loss.
+If you choose to use build tools such as Grunt or Gulp, carefully follow the instructions for submission given in the 'Suggestions to Make Your Project Stand Out!' portion of the Project Rubric.
+Note: As of the latest version of PageSpeed Insights, you may see a message stating "Prioritize visible content" appear, preventing your project from attaining the necessary score of 90. In this case, you will want to set the width and height of the images as a style attribute (<img style="width: 100px; height: 50px;") or encode your images using this tool: https://www.base64-image.de/

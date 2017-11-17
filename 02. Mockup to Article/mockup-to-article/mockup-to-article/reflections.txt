@@ -1,0 +1,16 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
+  * What new skills have you learned?
+  A: I have learned how to use a text editor to create HTML documents and debug them in browsers.
+  Additionally, I have learned how to use a couple good resources to look up tags I havent used before.
+
+  * What has been easy?
+  A: It has been easy to replicate the mockups so far and having some programming experience, it has been easy to understand the
+  synthax the resources have given as examples for unfamiliar tags.
+
+  * What has been difficult?
+  A: Understanding the local references. I am used to storing all the images in a seperate folder, so trying to reference in the same directory
+  was confusing at first.
+
+  * How have you used the problem solving strategies from the first project to overcome challenges so far?
+  A: I had to get up a walk away once. Looking at code too long narrows my mindset and it's hard to concentrate on the larger goal of the project.
+  

@@ -1,0 +1,66 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #2d3c49;
+  font-weight: 300;
+}
+
+a {
+  font-family: 'Lato', sans-serif;
+  color: #2d3c49;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+article {
+  text-align: center;
+}
+
+img, embed, object, video {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+hr {
+  border: solid 2px #7d97ad;
+  margin-right: 30px;
+}
+
+button {
+  min-width: 48px;
+  min-height: 48px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-muted {
+  color: #7d97ad;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.title-super {
+  font-size: 60px;
+}
+
+.title-logo {
+  margin-top: 20px;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.text-article {
+  font-size: 35px;
+}
